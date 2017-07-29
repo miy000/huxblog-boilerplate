@@ -5,9 +5,8 @@ header-img: img/home-bg.jpg
 email: miyo_yu@163.com
 description: ""
 keyword: ""
-url: "http://miyoyu.site"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
-
+url: "http://miy000.github.io"              # your host, for absolute URL
+baseurl: "/miy000.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # SNS settings
