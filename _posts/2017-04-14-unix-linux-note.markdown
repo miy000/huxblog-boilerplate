@@ -1,6 +1,6 @@
 ---
 layout:     post
-title: 咦，是设计哟
+title: 一些设计
 subtitle: 因为喜欢美，喜欢捣鼓呀~
 date:       2017-04-17
 author:     "MIYO"
@@ -24,8 +24,7 @@ tags:
 
 ## Brochure
 
-![blog1.jpg](https://i.loli.net/2017/07/30/597d568a56e5a.jpg)
-![BLOG2.jpg](https://i.loli.net/2017/07/30/597d73ea13864.jpg)
+![图片-1.jpg](https://i.loli.net/2017/07/30/597dce4734cb8.jpg)
 ![blog3.jpg](https://i.loli.net/2017/07/30/597d7a9cead0e.jpg)
 ![blog4.jpg](https://i.loli.net/2017/07/30/597d7b4d2d1aa.jpg)
 
