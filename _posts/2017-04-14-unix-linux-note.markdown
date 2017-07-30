@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "啊，设计"
-subtitle:   "一切都是因为喜欢捣鼓，喜欢美"
-date:       2017-04-14
+title:      "咦，是设计哟"
+subtitle:   "因为喜欢美，喜欢捣鼓呀~"
+date:       2017-04-17
 author:     "MIYO"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
@@ -10,36 +10,25 @@ tags:
     - Poster
 ---
 
-## Poster
-![压缩-海报-暨南1.jpg](https://i.loli.net/2017/07/30/597d55271980a.jpg)
 
-1. [Unix](#unix)
-	1. [Bell Labs](#bell-labs)
-	2. [Xenix](#xenix)
-	3. [BSD](#bsd)
-	4. [FreeBSD & Apple](#freebsd--apple)
-	5. [NeXTStep](#nextstep)
-	6. [Darwin](#darwin)
-	7. [POSIX](#posix)
-2. [Unix-like](#unix-like)
-	1. [Single Unix Specification](#single-unix-specification)
-	2. [Apple iOS](#apple-ios)
-	3. [XNU Kernel](#xnu-kernel)
-3. [Linux](#linux)
-	1. [Linux Kernel](#linux-kernel)
-	2. [GNU Project](#gnu-project)
-	3. [Android](#android)
-	4. [Android Kernel](#android-kernel)
-	5. [Android ROM](#android-rom)
-	6. [Chrome OS](#chrome-os)
-	7. [Chromium OS](#chromium-os)
+## Overall
+
+> 大学里社团活动，捣鼓了很多，原来参加过那么多活动。这里由于涉及到较多个人信息，所以只放部分作品~
+
+1. 校园手册、团委宣传手册
+
+2. 活动海报
+
+3. 其他
 
 ---
 
-## Unix
+## Poster
+
+![blog1.jpg](https://i.loli.net/2017/07/30/597d568a56e5a.jpg)
+![BLOG2.jpg](https://i.loli.net/2017/07/30/597d73ea13864.jpg)
 
 
-> Unix is a **family** of multitasking, multiuser computer OS.
 
 
 Derive from the original **AT&T Unix**, Developed in the 1970s at **Bell Labs** (贝尔实验室), initially intended for use inside the **Bell System**.
