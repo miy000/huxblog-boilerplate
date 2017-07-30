@@ -6,7 +6,7 @@ date: 2017-05-11
 author: "MIYO"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Design
+-Design
 ---
 
 ## Foreword
