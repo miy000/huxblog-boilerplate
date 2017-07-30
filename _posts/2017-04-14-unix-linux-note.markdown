@@ -1,20 +1,19 @@
 ---
 layout:     post
-title:      "Example Post"
-subtitle:   "不适合人类阅读，非常水的自我笔记"
-date:       2015-04-14
-author:     "Hux"
+title:      "啊 设计"
+subtitle:   "一切都是因为喜欢捣鼓，喜欢美"
+date:       2017-04-14
+author:     "MIYO"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
-    - OS
-    - Unix
-    - Linux
+    - Design
+    - Poster
 ---
 
 > This document is not completed and will be updated anytime.
 
 
-## Catagory
+## Poster
 
 1. [Unix](#unix)
 	1. [Bell Labs](#bell-labs)
