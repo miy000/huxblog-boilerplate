@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "深圳风景·建筑明信片"
-subtitle:   "记录·生活"
-date:       2017-05-25
+title: 深圳风景·建筑明信片
+subtitle: 记录·生活
+date:       2017-05-25
 author:     "MIYO"
-header-img: "img/post-bg-js-module.jpg"
+header-img: ![bg1.png](https://i.loli.net/2017/07/30/597d9ce008ae9.png)
 tags:
-    - Design
-    - poster
+    - 前端开发
+    - JavaScript
 ---
 
 ## Foreword
