@@ -4,10 +4,10 @@ title: 深圳风景·建筑明信片
 subtitle: 记录·生活
 date:       2017-05-25
 author:     "MIYO"
-header-img: ![bg1.png](https://i.loli.net/2017/07/30/597d9ce008ae9.png)
+header-img: "img/shenzhenposterbg.png"
 tags:
-    - 前端开发
-    - JavaScript
+    - Design
+    - Postcard
 ---
 
 ## Foreword
