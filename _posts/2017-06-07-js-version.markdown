@@ -11,6 +11,7 @@ tags:
 
 ## CONTENT
 
+
 - I.INTRODUCTION
 - II.BACKGROUND OF VISUALIZATION
 - III.FOUNDATION FRAMEWORK
@@ -20,30 +21,41 @@ tags:
 - VII.MEDIA DATA VISUALIZATION
 - REFERENCES
 
+
 ## I.	Introduction 
 Visualization is the graphic presentation of data-portrayals meant to reveal complex information at a glance. However, there are still some problems confusing me. Is data visualization just specialized in big data? Whether visualization contains bar chart, graphic pictures? What are the differences between infographics and visualization? 
+
 After reading some books and documents, I wrote this report to conclude my understanding of data visualization. The book Data visualization written by Wei CHEN helped me establish the framework of visualization as it provides a complete introduction to important topics in visualization. Beautiful visualization, a book that written by more than 20 experts specialized in design, science, statistics and analysis shows us how visualization can be applied into their work and life. It helps me have a further understanding on the practical application of visualization and put forward my ideas. Moreover, I read some paper and conference documents to acquire the latest information of visualization. There are three famous international conference to promote the development of visualization every year. They are IEEE conference on scientific visualization (SciVis), IEEE conference on Information visualization(infoVis), IEEE conference on visual analytics science and technology(VAST).
 
 ## II.	Background Of Visualization
 **A.	History of data visualization**
 Before the 17th century, map is the representative of data visualization in that period. Later in the 17th century, physical measurement became a new and important branch in visualization and statistical graphics became prosperous in 18th and 19th century. In the first half of the 20th century, when we design the visualization we will apply the psychological knowledge into it and visualization have been wide spread in daily life. Moreover, iconology and semiology was put forward by Bertin in 1967 which laid the foundation of visualization so that we can developed the visual display of quantitative information later. Currently, visualization has been a discipline in many university.
+
 **B.	Classification of data visualization**
+
 **1)	Scientific visualization**
 One of the modern and well-developed visualization area is scientific visualization, which is widely used in different theoretical and experimental researches. It focuses on 3D real world of physical and chemical phenomena. According to the data can be divided into scalar, vector and tensor, scientific visualization can also be classified into these three parts.
+
 **2)	Information visualization**
 Information visualization deals with the abstract and unstructured data, which compared with the scientific visualization, it focuses more on abstract and high dimensional data.
+
 **3)	Visual analytics**
 Visual analytics are defined as an analysis of reasoning subject that basic on the visual interface and is associated with multiple areas. In the visualization, it contains infographics, scientific visualization and computer graphics. The analysis of data connect with it contains the acquisition of information, data processing and data mining and in the interaction, visual analytics mix human-computer interaction and cognitive science.
+
 **C.	Visual perception theory**
 To study visualization better, we should also equip the knowledge of visual perception theory so that the user can learn our idea easily. Audiences obtain information through visual perception, coding to form cognition and they will obtain the solution during the process of interaction analysis.
-The visual perception theory includes psychology, color and visual encoding. User can memory the graphic information better. They will recognize the overall the picture first and later to figure out the partial of the picture. We should take full advantage of color psychology and visual illusion in our design.
-Human recognition system will have different understanding and ability of information acquisition with different visual channel. The following picture describe the general situation of expressive force of various kind of visual channel which ranks from top to bottom respectively according to the performance from high to low.
 
-   	the rank of human recognition system
+The visual perception theory includes psychology, color and visual encoding. User can memory the graphic information better. They will recognize the overall the picture first and later to figure out the partial of the picture. We should take full advantage of color psychology and visual illusion in our design.
+
+Human recognition system will have different understanding and ability of information acquisition with different visual channel. The following picture describe the general situation of expressive force of various kind of visual channel which ranks from top to bottom respectively according to the performance from high to low.
+![1.png](https://i.loli.net/2017/07/30/597d96273b03b.png)
+    
 **D.	Neighboring subjects**
 As data visualization is a comprehensive subject, it has several neighboring subjects that related with it but still have some differences.
+
 **1)	Infographics design**
 Information graphics are visual representation of information and data or knowledge often used to support information, which will strengthen it within a sensitive context. It concentrates on the two-dimensional visual design and lay particular stress on the expression of arts. While data visualization are visual displays of measured quantities by means of the combined use of a coordination system, points, lines, shapes, digits, letter quantified by visual attributes. Data visualization are general, context-free and often times created automatically. They also have several concepts in common. Both of them can be static, animated or interactive. To conclude it, information graphics are used to tell a story or answer a question while data visualization are used to let the user find his own story or answer.
+
 **2)	Dataology**
 Dataology contains data governance, data analysis & data mining and data warehouse. Data visualization and data analysis & data mining have the same goal in acquisition of knowledge in the data processing but they use different tools. 
 
@@ -53,21 +65,23 @@ Visualization can apply into various areas and help people get the information i
 ## III.	Foundation Framework
 **A.	Data visualization processing**
 Generally speaking, the data visualization process contains data acquisition, data cleaning, data analysis and the last step is data visualization. We divide data visualization into three parts and there are also some differences between them. Scientific visualization will contain the geometric data so that we need to filter them, map and render into the image data. Infographics visualization we need to turn the user’s behavior into data and build the visual structure like website, poster to help user develop their insight through the visualization. Visual data exploration process is characterized through interaction between data, visualizations, models about the data, and the users in order to discover knowledge.
+
 **B.	Elements of visualization**
 Visualization elements contains data, chart and their basic pattern. Data for visualization can be divided into three categories: order data, ratio data and category data. Visualization basic pattern includes design their size, color, location, network and time. We need to cooperate with their relationship appropriately. 
+
 **C.	The principle in visual design**
 Moreover, we need to follow some principles in visual design, such as the aesthetics rule, interface design and visual metaphor. Aesthetics are not the main goal of visualization, but the outstanding visualization must combine aesthetics with data display. There are plenty of ways to improve the aesthetics of visualization and we can conclude it as concentration, simple and balance. Interface design is necessary in the complicated visualization system. It must explain the data directly and let the user understand and remember our data easily. Visual metaphor is a method that introduce user into a new area by traditional ways. It can use time metaphor or space metaphor to help us explain new concepts better.
 
 ## IV.	Geographic Information Visualization
 **A.	Geographic information system**
 Geographic information system have been widely use in daily life and military affairs. Projection is popular in the geographic visualization and it includes Mercator projection, albers projection and azimuthal projection. When we design the geographic information, not only should we consider the geographic coordinate system but also we need to combine it with our social rules, such as ground resolution, map scale, confidentiality and military map.
+
 **B.	Basic methods in the geographic information visualization**
 - Point data. Point data is often use to label in the map and it can help us realize the notice of the area conveniently. PixelMap arithmetic is popular in dealing with point data which always overlap in the surface. It can let the data float in it.
 - Line data. Map is the earliest to use line data to draw flow map and it can make the movement of the objective in it directly.
 - Area data. To specify various area situation, we usually use choropleth map, cartogram map and thermodynamic diagram. We can tell different area data by their different color or proportion.
 - Spatiotemporal data. To combine geographic data and space data together, we can tell the story by spatiotemporal data. We can use animation to explain the movement of the map and it is increasingly popular that we use visual analysis of complex geographic data.
-
-     	Spatiotemporal data          
+![2.png](https://i.loli.net/2017/07/30/597d962866d78.png)
 
 **C.	Online  map**
 Online map is the pioneer of data visualization in our daily life. Online map can be connected with all our life, trip and on and off duty. Google map and Baidu map are well known in the world as we will use the map in case of getting lost. Moreover, the online map can help people drive a long way and no need to remember the details of the road which is of great significance for modern people’s life.
@@ -76,27 +90,29 @@ Online map is the pioneer of data visualization in our daily life. Online map ca
 **A.	Hierarchical data**
 Hierarchical data is the foundation of human’s cognition. The most important problem of Hierarchical data hard to present the huge quantities of data. One of the solution is to use the “focus and context” technology to enlarge the selected data while shrink the rest of information.
 In the representation of it, we can use the node-link, it can use different dimension to introduce the data and we can clarify their hierarchical structure easily. Space-filling can make full use of space to explain the huge volume of data such as treemap and sun burst. While hybrid layout combine the advantage of node-link and space-filling and it still have some drawbacks as it will be hard to explain the relationship of the data.
+
 **B.	Network data
 1)	General express way
 a)	Node-link figure**
 It is the most common use in social network data visualization. By arranging the appropriate position of the node, it can represent the liquidity and consistency of the picture better.
 In graph drawing, an arc diagram is a style of graph drawing, in which the vertices of a graph are placed along a line in the Euclidean plane, with edges being drawn as semicircles in one of the two halfplanes bounded by the line, or as smooth curves formed by sequences of semicircles. It cannot tell the overall situation of the data but it can show the relationship of different data in a direct way.
 Force directed graph drawing algorithms are a class of algorithms for drawing graphs in an aesthetically pleasing way. It can produce good-quality results which is full of flexibility and interactivity. However, it will cost high running time to produce the final result. 
+![3.png](https://i.loli.net/2017/07/30/597d9628b79ff.png)
 
-            arc diagram                                              Force directed layout
 **b)	Adjacency matrix**
 In graph theory and computer science, an adjacency matrix is a square matrix used to represent a finite graph. The elements of the matrix indicate whether pairs of vertices are adjacent or not in the graph. 
+
 **c)	Node trix**
 If we need to deal with the data with part of dense and sparse, it is hard to find a method that can deal with them. In this way, we can combine these two methods together and provide choice for the user to represent the data in their best way.
+
 **d)	Path visualization for adjacency matrices**
 Adjacency matrix can explain the direct relationship of different data in the immediate way but hard to appear the indirect relationship of them. Sheny adjusted augment adjacency matrices with path visualization and associated interaction techniques to facilitate path finding in the paper in 2007 and following picture is their work.
-  
-                                            node trix                               path visualization for adjacency matrices
+![4.png](https://i.loli.net/2017/07/30/597d962684c25.png)
+
 **2)	Optimization way**
 GMap is a practical algorithm for visualizing relational data with geographic-like maps. It makes up of the drawback of traditional techniques, such as they will capture the underlying structural information, clustering and neighborhoods.
 Hierarchical edge bundles are a new method for visualizing such compound graphs. The approach is based on visually bundling the adjacency edges, i.e., non-hierarchical edges, together. This hierarchical bundling reduces visual clutter and also visualizes implicit adjacency edges between parent nodes that are the result of explicit adjacency edges between their respective child nodes.
- 
-                                   Gmap                                                            Hierarchical edge bundles
+![5.png](https://i.loli.net/2017/07/30/597d96289d046.png) 
 
 ## VI.	Time-Varying Data Visualization
 **A.	An introduction to visualization for time-oriented data**
@@ -105,9 +121,10 @@ Time-varying data can be divided into two parts: arranged in the timeline of tim
 **B.	Visual survey of visualization techniques for time-oriented data  
 1)	Type of data**
 If we put the attribute of time as the horizontal axis and data will be the corresponding variable of time in the index. Time is an exceptional dimension that is common to many application domains such as medicine, engineering, business, science, biography, history, planning, or project management. Understanding time-oriented data enables us to learn from the past in order to predict, plan, and build the future. 
+
 There are two types of time-oriented data. One is the frame of reference and the other is number of variables. Frame of reference contains abstract and spatial type of data. While in the number of variables, one of the typical time-oriented data is Gantt chart and in the multivariate, we can use X-axis or the Y-axis to explain the flow time in different branch. As the following example, we can tell the story from the horizontal axis or the vertical axis and it will be convenient for the user to understand our story in a short time.
- 
-  X-axis represents time                                          Y-axis represents time    
+6666
+
 Moreover, we can use multiple perspective to explain the linear time. In the orthogonal layout, we can use data vases and the arab spring to tell the story. Thakur used the data vases to show the time series of crime rates in North Carolina 100 countries during 1980-2005. Individual kite diagrams are arranged alphabetically from left to right based on county names and colored based on geographic regions in North Carolina.
 In the picture of Arab Spring, it represents the development of Arab in different times. The horizontal axis shows various countries and the vertical axis represents the time period. We can use different color of symbol to put on the picture to present the breaking news in that area of time period.
  
