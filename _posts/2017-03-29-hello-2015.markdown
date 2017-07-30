@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Welcome to MIYO Blog"
-subtitle:   "这里是MIYO写字的地方"
+subtitle:   这里是MIYO写字的地方
 date:       2017-03-29 12:00:00
 author:     MIYO
 header-img: "img/post-bg-2015.jpg"
