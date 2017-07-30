@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "啊 设计"
+title:      "啊，设计"
 subtitle:   "一切都是因为喜欢捣鼓，喜欢美"
 date:       2017-04-14
 author:     "MIYO"
@@ -10,10 +10,8 @@ tags:
     - Poster
 ---
 
-> This document is not completed and will be updated anytime.
-
-
 ## Poster
+![压缩-海报-暨南1.jpg](https://i.loli.net/2017/07/30/597d55271980a.jpg)
 
 1. [Unix](#unix)
 	1. [Bell Labs](#bell-labs)
