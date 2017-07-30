@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "深圳风景建筑明信片"
-subtitle:   记录，生活
-date:       2017-05-11
-author:     "MIYO"
+title: "深圳风景建筑明信片"
+subtitle: 记录，生活
+date: 2017-05-11
+author: "MIYO"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Design
