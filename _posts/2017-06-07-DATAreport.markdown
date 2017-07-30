@@ -11,7 +11,6 @@ tags:
 
 ## CONTENT
 
-
 - I.INTRODUCTION
 - II.BACKGROUND OF VISUALIZATION
 - III.FOUNDATION FRAMEWORK
@@ -20,7 +19,6 @@ tags:
 - VI.TIME-VARYING DATA VISUALIZATION
 - VII.MEDIA DATA VISUALIZATION
 - REFERENCES
-
 
 ## I.	Introduction 
 Visualization is the graphic presentation of data-portrayals meant to reveal complex information at a glance. However, there are still some problems confusing me. Is data visualization just specialized in big data? Whether visualization contains bar chart, graphic pictures? What are the differences between infographics and visualization? 
@@ -123,53 +121,77 @@ Time-varying data can be divided into two parts: arranged in the timeline of tim
 If we put the attribute of time as the horizontal axis and data will be the corresponding variable of time in the index. Time is an exceptional dimension that is common to many application domains such as medicine, engineering, business, science, biography, history, planning, or project management. Understanding time-oriented data enables us to learn from the past in order to predict, plan, and build the future. 
 
 There are two types of time-oriented data. One is the frame of reference and the other is number of variables. Frame of reference contains abstract and spatial type of data. While in the number of variables, one of the typical time-oriented data is Gantt chart and in the multivariate, we can use X-axis or the Y-axis to explain the flow time in different branch. As the following example, we can tell the story from the horizontal axis or the vertical axis and it will be convenient for the user to understand our story in a short time.
-6666
+![6.png](https://i.loli.net/2017/07/30/597d97f64f0ca.png)
 
 Moreover, we can use multiple perspective to explain the linear time. In the orthogonal layout, we can use data vases and the arab spring to tell the story. Thakur used the data vases to show the time series of crime rates in North Carolina 100 countries during 1980-2005. Individual kite diagrams are arranged alphabetically from left to right based on county names and colored based on geographic regions in North Carolina.
+
 In the picture of Arab Spring, it represents the development of Arab in different times. The horizontal axis shows various countries and the vertical axis represents the time period. We can use different color of symbol to put on the picture to present the breaking news in that area of time period.
- 
-           data vases                                                                   arab spring 
+![7.png](https://i.loli.net/2017/07/30/597d97f71da82.png)
 
 **2)	Time**
 There are several types of time arrangement of the time-oriented data. Tominski introduced multiple-dimension time oriented data in his paper and named it timewheel. The following picture is the screen shot of a timewheel. The lengths of the circular axes and the color fading are computed according the angle formed by each axis with the central axis of reference. This method can show multiple-dimension time oriented data in a direct way. However, there are still some disadvantages beside it such as some data will be kept out so that we cannot present too many data.
+
 Later in 2008, Tominski improved existing spiral displays by applying the expressive two-tone pseudo coloring. It allows users to read off data values more precisely. More importantly, they enhanced two-tone spiral display with efficient interaction facilities.
+
 In 2012, Tominski used trajectory wall to explained the instant of time. The core of their approach is a hybrid 2D/3D display. They solution was equipped with analytical and interactive mechanisms for selecting and ordering of trajectories. 
 Moreover, triangular model is popular to explain the time interval. In this model, x-axis on behalf of the time while y-axis is the time interval. Every event’s time interval can be understood by the y-axis. It is useful to show the relationship between data and time interval.
 ![13.png](https://i.loli.net/2017/07/30/597d897ef216f.png)
 
 **3)	Type of visualization **
 There are static and dynamic mapping ways of visualization and static mapping is mainly used in visualization. One of the representative of dynamic mapping is Trendalyzer, animated scatter plot. Generally speaking, these 2D scatter plot shows two kinds of data and animation emphasize time. But Trendalyzer, a special information visualization software, can create a new dimension by color and area to explain more information.
+
 As for the dimensionality, we can use 2D and 3D pictures to explain the data. 3D has a main problem that will cover some data. Carvalho created a model which use temporal focus and context to visualize several time periods.
+
 **C.	Streaming data visualization  **
 Streaming data is data that generated continuously by thousands of data sources, which typically send in the data records simultaneously and in small sizes. It is beneficial in most scenarios where new, dynamic data is generated on a continual basis. It applies to most of the industry segments and big data use cases. Users can have three interactions with them: search for the output, arrange data layout and custom-made big data.
-The technology of streaming data processing is quite mature. Time window, time series data similarity calculation and symbolic aggregate approximation have been applied in this field.
-As for the streaming data visualization case, system log monitoring data flow and text data stream is popular in our work and life. For example, the event river. In the following picture, it is the CNN news from August 1 to 24, 2006 in EventRiver. The horizontal axis of the display is a time axis where time flows from left to right. Each bubble represents an event mapped to a cluster of documents in the collection. Events with the same color and adjacent to each other in their vertical positions are closely related and construct a long-term story.
 
-event river
+The technology of streaming data processing is quite mature. Time window, time series data similarity calculation and symbolic aggregate approximation have been applied in this field.
+
+As for the streaming data visualization case, system log monitoring data flow and text data stream is popular in our work and life. For example, the event river. In the following picture, it is the CNN news from August 1 to 24, 2006 in EventRiver. The horizontal axis of the display is a time axis where time flows from left to right. Each bubble represents an event mapped to a cluster of documents in the collection. Events with the same color and adjacent to each other in their vertical positions are closely related and construct a long-term story.
+![8.png](https://i.loli.net/2017/07/30/597d97f60ce42.png)
 
 ## VII.	Media Data Visualization
 **A.	Text and ducuemnt visualization**
 As my dissertation is the analysis of public opinion and I find this quite useful for me. Before we analyze the data, we need to turn the text and document into digital. There are several aspects that we can do research on. First of all, in the text visualization based on keywords, word cloud, docuburst and document cards are popular to show the keywords. Themeriver and history flow is the represent method of the text content visualization that based on the timing. Furthermore, sentiment analysis visualization is quite useful in the text and document visualization. We can divide our data into two parts, positive and negative and sentiment map is the most common method to show it.
+
 There are three types of text relationship visualization and they are based on hierarchy model, map or the collection of document. Word tree and newsmap are one of the visualization that based on hierarchy models. Phrase nets show the relationship of different word and picture based by pictures. The collection of document visualization will use galaxy view and themescape to introduce the data. In addition, contextour, faceatlas and parallel tag clouds are frequently used in the expression of multi-level data.
+
 **B.	Hypermedia data visualization**
 Image, video and sound data can also be visualized. An image is a well-behaved uniform dataset and we can use color, light and shade and scene to visualize their characteristics. Hypermedia data visualization’s strategy is to provide the user with different hierarchies, each giving a different perspective to the underlying information space to help the user better comprehend the information. It proposed an algorithm based on content and structural analysis to form hierarchies from hypermedia networks. The algorithm is automatic but can be guided by the user. The multiple hierarchies can be visualized in various ways.
+
 Social networking visualization is increasingly popular as internet users from all over the world have created a large volume of time-stamped, geo-located data. Take one of our Weibo visualization homework as an example, we can obtain personal expression, hot news in the first step and extract major topics from a set of selected messages and rank them probabilistically using Latent Dirichlet Allocation. Furthermore, we can analyze the networking data to provide insights for investigations and understanding the extent of incidents, their severity and consequences.
 
 ## References
 1.CHEN Wei, SHEN Zeqian, TAO Yubo, et al. Data visualization[M].Beijing: Electronic Industry Press, 2013
+
 2.Steele J, Iliinsky N P N. Beautiful visualization /[M]. O'Reilly Media, 2010.
+
 3.Sheny Z, Maz K L. Path Visualization for Adjacency Matrices.[C]// Joint Eurographics-ieee Tcvg Symposium on Visualization. DBLP, 2007:83-90.
+
 4.Henry N, Fekete J D, Mcguffin M J. NodeTrix: a Hybrid Visualization of Social Networks[J]. IEEE Transactions on Visualization & Computer Graphics, 2007, 13(6):1302-1309.
+
 5.Gansner E R, Hu Y, Kobourov S. GMap: Visualizing graphs and clusters as maps[C]// Visualization Symposium. IEEE, 2010:201-208.
+
 6.Keim D A, Panse C, Sips M, et al. Visual data mining in large geospatial point sets[J]. IEEE Computer Graphics and Applications, 2004, 24(5): 36-44.
+
 7.Holten D. Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hierarchical Data[J]. IEEE Transactions on Visualization & Computer Graphics, 2006, 12(5):741-748.
+
 8.Aigner W, Miksch S, Schumann H, et al. Visualization of time-oriented data[M]. Springer Science & Business Media, 2011.
+
 9.Thakur S, Hanson A J. A 3D visualization of multiple time series on maps[C]//Information Visualisation (IV), 2010 14th International Conference. IEEE, 2010: 336-343.
+
 10.Tominski C, Abello J, Schumann H. Axes-based visualizations with radial layouts[C]//Proceedings of the 2004 ACM symposium on Applied computing. ACM, 2004: 1242-1247.
+
 11.Tominski C, Schumann H. Enhanced interactive spiral display[C]//SIGRAD 2008. The Annual SIGRAD Conference Special Theme: Interaction; November 27-28; 2008 Stockholm; Sweden. Linköping University Electronic Press, 2008 (034): 53-56.
+
 12.Tominski C, Schumann H, Andrienko G, et al. Stacking-based visualization of trajectory attribute data[J]. IEEE Transactions on visualization and Computer Graphics, 2012, 18(12): 2565-2574.
+
 13.Peuquet D J, Ci-Xiang Z. An algorithm to determine the directional relationship between arbitrarily-shaped polygons in the plane[J]. Pattern Recognition, 1987, 20(1): 65-74.
+
 14.Yi J S, ah Kang Y, Stasko J. Toward a deeper understanding of the role of interaction in information visualization[J]. IEEE transactions on visualization and computer graphics, 2007, 13(6): 1224-1231.
+
 15.Carvalho A, De Sousa A A, Ribeiro C, et al. A temporal focus+ context visualization model for handling valid-time spatial information[J]. Information Visualization, 2008, 7(3-4): 265-274.
+
 16.Chae J, Thom D, Bosch H, et al. Spatiotemporal social media analytics for abnormal event detection and examination using seasonal-trend decomposition[C]//Visual Analytics Science and Technology (VAST), 2012 IEEE Conference on. IEEE, 2012: 143-152.
+
 17.Cao N, Lin Y R, Sun X, et al. Whisper: Tracing the spatiotemporal process of information diffusion in real time[J]. IEEE Transactions on Visualization and Computer Graphics, 2012, 18(12): 2649-2658.
